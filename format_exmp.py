@@ -21,3 +21,6 @@ if __name__=='__main__':
     print("Time is {}".format(date))
     print("Today's date is:", date)
     print(date.strftime('%d/%m/%Y'))
+
+
+
