@@ -50,3 +50,15 @@ y=[]
 z=tuple(x)
 
 # appending and removing is not there in tuple, because it is immutbale
+
+# packing and unpacking
+a=10
+b=20
+c=30
+m=a,b,c
+print(m)
+print(type(m))
+n=100,200,300
+d,e,f=n
+print(d,e,f)
+print(type(d))
